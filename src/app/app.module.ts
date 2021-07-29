@@ -8,18 +8,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactoComponent } from './contacto/pages/contacto.component';
 
-/* TO-DO: Eliminar después */
-import { CabeceraComponent } from './shared/cabecera/cabecera.component';
-import { PieComponent } from './shared/pie/pie.component';
-
 @NgModule({
   declarations: [
     /* Componentes que pertenecen al bundle principal */
     AppComponent,
-    ContactoComponent,
-    /* TO-DO: Eliminar después */
-    CabeceraComponent,
-    PieComponent
+    ContactoComponent
   ],
   imports: [
     /* Módulos que necesita nuestro bundle principal */
