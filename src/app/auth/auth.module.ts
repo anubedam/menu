@@ -5,13 +5,17 @@ import { CommonModule } from '@angular/common';
 import { AuthRoutingModule } from './auth-routing.module';
 
 /* Componentes pertenecientes a AuthModule */
-import { LoginComponent } from './login/login.component';
-import { RegistroComponent } from './registro/registro.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 @NgModule({
-  declarations: [LoginComponent, RegistroComponent],
+  declarations: [
+    /* Componetes pertenecientes a Auth */
+    LoginComponent, 
+    RegistroComponent
+  ],
   imports: [
-    /* Componentes pertenecientes a AuthModule */
+    /* Modulos que necesita AuthModule */
     CommonModule,
     AuthRoutingModule
   ]
