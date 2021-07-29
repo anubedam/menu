@@ -8,12 +8,14 @@ Rutas:
 - contacto
     
 - public (app)
-    
+
+    \inicio
+
     \anuncios
-        \nuevo-anuncio
+        \nuevo
     
     \fiestas 
-        \nueva-fiesta
+        \nueva
     
     \noticias
-    \nueva-noticia
+        \nueva
