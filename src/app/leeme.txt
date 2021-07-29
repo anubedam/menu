@@ -1,0 +1,19 @@
+Rutas:
+======
+
+- auth
+    \login
+    \registro  
+    
+- contacto
+    
+- public (app)
+    
+    \anuncios
+        \nuevo-anuncio
+    
+    \fiestas 
+        \nueva-fiesta
+    
+    \noticias
+    \nueva-noticia

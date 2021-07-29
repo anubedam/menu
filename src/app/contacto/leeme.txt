@@ -1,0 +1,1 @@
+Componente de contacto (pertenece a AppModule).
