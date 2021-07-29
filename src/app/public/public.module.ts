@@ -6,6 +6,7 @@ import { PublicRoutingModule } from './public-routing.module';
 
 /* Componentes pertenecientes al módulo public */
 import { PublicComponent } from './public.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 /* Módulo shared - para poder utilizar cabecera y pie */
 import { SharedModule } from '../shared/shared.module';
@@ -13,7 +14,8 @@ import { SharedModule } from '../shared/shared.module';
 @NgModule({
   declarations: [
     /* Componentes pertenecientes a este módulo */
-    PublicComponent
+    PublicComponent,
+    InicioComponent
   ],
   imports: [
     /* Módulos que utiliza nuestro módulo public */

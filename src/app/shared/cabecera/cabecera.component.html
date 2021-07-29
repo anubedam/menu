@@ -1,7 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <!-- Icono de inicio -->
-        <a class="navbar-brand" href="#">Inicio</a>
+        <a class="navbar-brand" 
+           routerLink="/app"
+           routerLinkActive="active">
+           
+           Inicio
+        </a>
             <button class="navbar-toggler" 
                     type="button" 
                     data-bs-toggle="collapse" 
@@ -30,13 +35,19 @@
                         aria-labelledby="menu-anuncio">
 
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" 
+                               routerLink="/app/anuncios"
+                               routerLinkActive="active">
+
                                 Anuncios
                             </a>
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" 
+                               routerLink="/app/anuncios/nuevo"
+                               routerLinkActive="active">
+
                                 Nuevo anuncio
                             </a>
                         </li>
@@ -58,14 +69,20 @@
                         aria-labelledby="menu-fiestas">
 
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" 
+                               routerLink="/app/fiestas"
+                               routerLinkActive="active">
+
                                 Fiestas
                             </a>
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="#">
-                                Nueva fiesta
+                            <a class="dropdown-item" 
+                               routerLink="/app/fiestas/nueva"
+                               routerLinkActive="active">
+
+                               Nueva fiesta
                             </a>
                         </li>
                     </ul>
@@ -86,14 +103,20 @@
                         aria-labelledby="menu-noticias">
 
                         <li>
-                            <a class="dropdown-item" href="#">
-                                Noticias
+                            <a class="dropdown-item" 
+                               routerLink="/app/noticias"
+                               routerLinkActive="active">
+
+                               Noticias
                             </a>
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="#">
-                                Nueva noticia
+                            <a class="dropdown-item" 
+                               routerLink="/app/noticias/nueva"
+                               routerLinkActive="active">
+                               
+                               Nueva noticia
                             </a>
                         </li>
                     </ul>
