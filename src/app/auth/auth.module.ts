@@ -4,16 +4,23 @@ import { CommonModule } from '@angular/common';
 /* Módulo de rutas */
 import { AuthRoutingModule } from './auth-routing.module';
 
+import { SharedModule } from '../shared/shared.module';
+
 /* Componentes pertenecientes a AuthModule */
-import { LoginComponent } from './login/login.component';
-import { RegistroComponent } from './registro/registro.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 @NgModule({
-  declarations: [LoginComponent, RegistroComponent],
+  declarations: [
+    /* Componentes que pertenecen a Auth Module */
+    LoginComponent, 
+    RegistroComponent
+  ],
   imports: [
     /* Componentes pertenecientes a AuthModule */
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    SharedModule
   ]
 })
 export class AuthModule { }
