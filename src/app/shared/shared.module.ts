@@ -5,6 +5,9 @@ import { CommonModule } from '@angular/common';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { PieComponent } from './pie/pie.component';
 
+/* Módulo para poder realizar la navegación */
+import { RouterModule } from '@angular/router';
+
 @NgModule({
   declarations: [
     /* Componentes pertenecientes al módulo Shared */
@@ -13,7 +16,8 @@ import { PieComponent } from './pie/pie.component';
   ],
   imports: [
     /* Módulo que necesitan nuestros componentes */
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     /* Componentes que se utilizarán fuera de este módulo */
